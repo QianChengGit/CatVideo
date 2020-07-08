@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#80ffffff"/>
+    <!--#211aba4b-->
+    <corners android:radius="8dip"/>//设置圆角的弧度
+    <padding android:top="2.5dp"
+        android:bottom="2.5dp"
+        android:left="5dp"
+        android:right="5dp" />
+    <gradient android:centerColor="#1df"
+        android:startColor="#4fa"
+        android:endColor="#f9f"/>
+    <stroke android:width="2dip"
+        android:color="#999"/>
+</shape>

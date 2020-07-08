@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ccc</color>//#3F51B5
+    <color name="colorPrimaryDark">#d01f1f1f</color>
+    <color name="colorAccent">#f70</color>
+    <color name="My_checkBox1">#4fd</color>
+</resources>

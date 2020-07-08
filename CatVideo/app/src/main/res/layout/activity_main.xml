@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#3020ff40"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.catvideo.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/toolbar_style"
+        android:contentInsetStart="0dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/select_textview"
+                android:gravity="center"
+                android:textSize="13dp"
+                android:textColor="#8f0ff2"
+                android:id="@+id/textView" />
+            <Button
+                android:id="@+id/select_video_btn"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:text="搜索"
+                android:background="@drawable/select_btn"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView"
+                android:layout_toEndOf="@+id/textView"
+                android:layout_marginRight="10dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/video_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="570dp">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
